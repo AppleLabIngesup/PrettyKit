@@ -370,7 +370,7 @@ typedef enum {
 
 - (void) dealloc
 {
-    [self.contentView removeObserver:self forKeyPath:@"frame"];
+    //[self.contentView removeObserver:self forKeyPath:@"frame"];
     self.borderColor = nil;
     self.tableViewBackgroundColor = nil;
     self.customSeparatorColor = nil;
